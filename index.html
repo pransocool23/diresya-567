@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Anggota OSIS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Data Anggota OSIS</h2>
+
+    <form id="form">
+        <input id="nama" placeholder="Nama" required>
+        <input id="jabatan" placeholder="Jabatan" required>
+        <input id="kelas" placeholder="Kelas" required>
+        <button type="submit">Tambah</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Jabatan</th>
+                <th>Kelas</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody id="tabel"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
